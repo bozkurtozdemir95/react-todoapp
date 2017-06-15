@@ -1,0 +1,144 @@
+body {
+    background: url(https://line25.com/wp-content/uploads/2009/letterpress/demo/bg.png);
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+}
+.addTask {
+    background: #474747;
+    color:white;
+    display: block;
+    margin: 0;
+    min-width: 337px;
+    font-family: sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 10px;
+    border: solid 1px #6d6b6b;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+.addTask:focus,.addTask.focus {
+  outline: none;
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.addTask::placeholder {
+    color: #999;
+}
+table input {
+    width: 100%;
+    font-size: 18px;
+    border: 0px;
+}
+table input:focus, table input:active{
+    outline: none;
+}
+
+form{
+    display: flex;
+}
+form div {
+    margin-left: 20px;
+    width: 200px;
+    align-self: center;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #388E3C;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #388E3C;
+    cursor: pointer;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+form button:focus {
+    outline: none;
+}
+form button:hover, form button:active, form button:focus{
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+h1{
+    display: block;
+    text-decoration: none;
+    font: 48px Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    color: #999;
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+table {
+    width: 100%;
+    margin-top:50px;
+}
+
+thead tr th {
+    text-decoration: none;
+    font: 18px Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    color: #999;
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+tbody td:first-child {
+    background: #474747;
+    color: white;
+    display: block;
+    margin: 0;
+    min-width: 337px;
+    font-family: sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 10px;
+    border: solid 1px #6d6b6b;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+button.edit {
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 12px;
+    background-color: #1E88E5;
+    color: #ffffff;
+    border: 1px solid #1E88E5;
+    cursor: pointer;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}   
+button.delete {
+    padding: 10px 20px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-color: #B71C1C;
+    color: #ffffff;
+    border: 1px solid #B71C1C;
+    cursor: pointer;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+button.cancel {
+    padding: 10px 20px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-color: #B71C1C;
+    color: #ffffff;
+    border: 1px solid #B71C1C;
+    cursor: pointer;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+button.save {
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 12px;
+    background-color: #388E3C;
+    color: #ffffff;
+    border: 1px solid #388E3C;
+    cursor: pointer;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
